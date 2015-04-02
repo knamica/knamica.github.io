@@ -1,0 +1,172 @@
+
+#frame {
+  position: relative;
+  top:60px;
+  width            : 1400px;
+	margin-left      : auto;
+	margin-right     : auto;
+	text-align       : left;
+	background-color : #ffffff;
+  border-style: solid; border-color: #e6e6fa;
+	height           : 800px;
+  box-shadow: -10px 10px 20px 2px #696969;
+}
+body {
+	text-align       : center;
+	background-color : white;
+	margin           : 0px;
+	padding          : 0px;
+
+}
+
+iframe{
+  width:400px;
+  height:110px;
+  position:relative;
+  top:140px;
+  left:120px;
+  }
+
+#menu ul{
+list-style: none;
+padding:0;
+margin:0;
+position:relative;
+}
+
+#menu01 a, #menu02 a, #menu03 a, #menu04 a, #menu05 a, #menu06 a{
+display: block;
+width: auto;
+border-bottom: 1px dotted #555;
+text-decoration: none;
+color: #555;
+padding: 0px 0px 0px 20px;
+margin: 0px 2px;
+text-align: left;
+font-size: 25px;
+}
+
+li#menu01{
+  width:130px;
+  position:relative;
+  top:150px;
+  right:145px;
+  margin-left: auto;
+}
+
+li#menu02{
+  width:130px;
+  position:relative;
+  top:195px;
+  right:125px;
+  margin-left: auto;
+}
+li#menu03{
+  width:130px;
+  position:relative;
+  top:240px;
+  right:105px;
+  margin-left: auto;
+}
+li#menu04{
+  width:130px;
+  position:relative;
+  top:285px;
+  right:93px;
+  margin-left: auto;
+}
+li#menu05{
+  width:130px;
+  position:relative;
+  top:330px;
+  right:95px;
+  margin-left: auto;
+}
+li#menu06{
+  width:140px;
+  position:relative;
+  top:375px;
+  right:95px;
+  margin-left: auto;
+}
+#menu li a:hover{
+background:url("../images/othersource/menuitem.png") no-repeat left center;
+}
+
+header, nav, article, aside, section, footer {
+    display:block;
+}
+
+.box_srcollbar {
+    overflow:auto;
+    width:700px;
+    height:80px;
+    padding:5px;
+    border:1px solid #000;
+    background-color:#F9F9F9;
+    color:#000;
+    font-size:12px;
+    position:absolute;
+    bottom:70px;
+    left:150px;
+}
+.box_title{
+    border:1px solid #000;
+    padding:5px;
+    width:700px;
+    font-weight:bold;
+    font-size:14px;
+    background-color:#b39978;
+    color:#fff;
+    position:absolute;
+    left:150px;
+    bottom:160px;
+}
+
+#titlelogo{
+  position:absolute;
+  top:10px;
+  right:20px;
+  margin:5px;
+}
+div#menubox{
+  height:800px;
+  width:375px;
+  background-image:url("../images/othersource/menu.png");
+  position:relative;
+  top:0;
+  float:right;
+}
+
+#main{
+  float:left;
+  width:1025px;
+  height:800px;
+  background-image:url("../images/othersource/background-main2.png");
+}
+.newsound{
+  position:absolute;
+  top:70px;
+  left:215px;
+  font-size:30px;
+  font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+  color:#708090;
+  margin:10px;
+}
+.newillust{
+  position:absolute;
+  top:300px;
+  left:226px;
+  font-size:30px;
+  font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
+  color:#708090;
+}
+
+img#newimage{
+  position:absolute;
+  top:397px;
+  left:184px;
+  -moz-border-radius: 20px;    /* Firefox */
+  -webkit-border-radius: 20px; /* Safari,Chrome */
+  border-radius: 20px;         /* CSS3 */
+}
